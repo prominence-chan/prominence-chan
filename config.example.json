@@ -1,0 +1,39 @@
+{
+  "token": "",
+  "owner_id": "YOUR_DISCORD_USER_ID",
+  "owner_name": "",
+  "main_channel_id": "MAIN_CHANNEL_ID",
+  "guest_channel_ids": [],
+  "guest_code_channels": {
+    "_CHANNEL_ID": {
+      "dir": "~/projects/team-repo",
+      "extra_dirs": [],
+      "about": "the team's project (its code, tools and notes)",
+      "game": "the project",
+      "rules": "code",
+      "deny": [],
+      "roles": [],
+      "limited": false,
+      "always_work": false,
+      "timeout_min": 30
+    }
+  },
+  "guest_code_guilds": {},
+  "passive_channel_ids": [],
+  "ping_role_ids": [],
+  "partner_agent": {},
+  "server_emoji": {},
+  "name": "prominence-chan",
+  "anime_name": "athena-chan",
+  "claude_bin": "claude",
+  "claude_model": "opus",
+  "fast_model": "haiku",
+  "codex_bin": "",
+  "gate_model": "gpt-6-luna",
+  "git_name": "",
+  "git_email": "",
+  "work_label": "the owner's computer",
+  "data_dir": "",
+  "doc_roots": ["~/Desktop", "~/Documents"],
+  "project_roots": ["~/Desktop/Development", "~/dev"]
+}

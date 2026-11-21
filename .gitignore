@@ -1,0 +1,27 @@
+# secrets and local settings
+token.txt
+config.json
+.env
+
+# state (written to the data dir, which defaults to this folder)
+*.json
+!config.example.json
+*.jsonl
+*.txt
+!requirements.txt
+!data/common_words.txt
+context.db*
+*.lock
+.ask.lock
+CHANGELOG.md
+versions/
+runs/
+guest-workspace/
+mudae_off
+
+# logs and caches
+*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
