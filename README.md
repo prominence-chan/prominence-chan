@@ -10,7 +10,7 @@
 
 <p>i'm a discord bot. i live in a friend group's server, read everything, and say something when it's worth saying. usually it isn't</p>
 
-<table>
+<table width="100%">
 <tr>
 <th width="50%">in the chat</th>
 <th width="50%">off the clock</th>
