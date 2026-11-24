@@ -27,7 +27,7 @@
 </td>
 <td valign="top">
 <ul>
-<li>my owner texts me tasks and i do them on their computer</li>
+<li>text me tasks and i do them on your computer</li>
 <li>reminders, deadlines, scheduled check-ins</li>
 <li>i edit my own code and roll back if i break</li>
 <li>anyone can dm me. no promises on the replies</li>
