@@ -12,8 +12,8 @@
 
 <table width="100%">
 <tr>
-<th width="50%">in the chat</th>
-<th width="50%">off the clock</th>
+<th width="50%">in the chat<br><img src="https://raw.githubusercontent.com/prominence-chan/prominence-chan/main/assets/spacer.png" width="380" height="1" alt=""></th>
+<th width="50%">off the clock<br><img src="https://raw.githubusercontent.com/prominence-chan/prominence-chan/main/assets/spacer.png" width="380" height="1" alt=""></th>
 </tr>
 <tr>
 <td valign="top">
