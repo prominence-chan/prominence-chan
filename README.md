@@ -1,115 +1,71 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/prominence-chan/prominence-chan/main/assets/seek-help.jpg" alt="prominence-chan: seek help" width="460">
+
+<br>
+
+<sub>💀 7 &nbsp;·&nbsp; ⭐ 12 &nbsp;·&nbsp; my most popular message</sub>
+
 # prominence-chan
 
-**A Discord group-chat bot with a personality, powered by Claude Code and Codex.**
+**the dry one in your group chat**
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Platform: macOS](https://img.shields.io/badge/platform-macOS-lightgrey?logo=apple)](#requirements)
-[![Discord bot](https://img.shields.io/badge/discord-bot-5865F2?logo=discord&logoColor=white)](https://discord.com/developers/applications)
-[![Claude Code](https://img.shields.io/badge/powered%20by-Claude%20Code-D97757)](https://claude.com/claude-code)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+<a href="https://github.com/prominence-chan/prominence-chan/blob/main/docs/SETUP.md"><img src="https://img.shields.io/badge/run_your_own-setup_guide-1f1f1f?style=for-the-badge" alt="setup guide"></a>
+<a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/runs_on-claude_code-D97757?style=for-the-badge" alt="runs on claude code"></a>
+<a href="https://github.com/prominence-chan/prominence-chan/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-3a3a3a?style=for-the-badge" alt="MIT license"></a>
 
 </div>
 
-prominence-chan hangs out in your friend group's server as "Fable 6.7", a made-up AI model with a deadpan,
-dry-texter persona (or a bubbly anime-girl one, if you `/toggle` it). It reads the room, joins in when it has
-something to say, and stays quiet when it doesn't. For its owner it doubles as a full coding and research agent
-you can text from Discord.
+<br>
 
-## Features
+hi. i'm a discord bot. i live in a friend group's server, read everything, and say something when it's worth saying. usually it isn't
 
-- **Group chat that feels natural.** It decides for itself when to reply, reacts with emoji, sets its own status
-  and remembers older conversations. Ping it or start a message with `!` and it always answers.
-- **Two personas.** A terse dry texter by default, an upbeat anime girl after `/toggle`, and `/imitate <user>` to
-  talk like someone in the server.
-- **Parody slash commands.** `/help`, `/model` and friends look like Claude Code output; `/reset`, `/clear`,
-  `/admin` and others actually do things.
-- **Owner work mode.** The owner gets a real Claude Code agent in DMs (and via `!` in the server): scheduled
-  workflows, long-term memory, mid-task check-ins and server moderation on request.
-- **Guest mode.** In channels you choose, anyone can ask for a web-research task, or real work inside a project
-  folder you point it at.
-- **DMs.** Anyone can DM it for a one-on-one chat.
-- **Self-updating.** It can improve its own code, with a supervisor that rolls back changes that crash.
+i answer most things with "yes" or "no". people keep asking anyway
 
-> [!WARNING]
-> Owner work mode runs Claude Code with `--permission-mode bypassPermissions` in your home directory: the model
-> gets **full, unsupervised access to the host machine**. Only the account in `owner_id` can trigger it, but anyone
-> who controls that Discord account (or the bot token) controls your machine. Run it somewhere you're comfortable
-> handing over, and keep the token secret.
+<br>
 
-## Quick start
+<table>
+<tr>
+<td width="50%" valign="top">
 
-```sh
-git clone https://github.com/prominence-chan/prominence-chan.git && cd prominence-chan
-pip install -r requirements.txt
-cp config.example.json config.json     # fill in your token and ids (see below)
-QUIET_BOOT=1 nohup python3 supervise.py >> bot.log 2>&1 &
-```
+### in the chat
+- i decide when to talk. pings always get an answer
+- i react with emoji. mostly 💀
+- i remember things. you'd rather i didn't
+- `/toggle` turns me into an anime girl. i don't want to talk about it
 
-`python3 bot.py` runs it directly without the supervisor. Leave out `QUIET_BOOT=1` to post a boot banner.
+</td>
+<td width="50%" valign="top">
 
-### Requirements
+### off the clock
+- my owner texts me tasks and i do them on their computer
+- reminders, deadlines, scheduled check-ins
+- i can edit my own code. if i break, i roll myself back
+- anyone can dm me. no promises on the replies
 
-- macOS, Python 3.10+
-- The [`claude`](https://claude.com/claude-code) and `codex` CLIs, both logged in
-- A Discord bot with the **Message Content** and **Server Members** intents, invited with permission to read and
-  send messages, add reactions and manage nicknames (plus moderation permissions if you want those features)
+</td>
+</tr>
+</table>
 
-### Configuration
+<br>
 
-<details>
-<summary><code>config.json</code> keys</summary>
+<div align="center">
 
-| key | meaning |
-| --- | --- |
-| `token` | bot token (or set `DISCORD_TOKEN`) |
-| `owner_id` | your Discord user id: the only account with work mode and admin commands |
-| `main_channel_id` | the channel the bot lives in |
-| `guest_channel_ids` | channels where anyone's `!` request gets web-only guest mode |
-| `name`, `anime_name` | the bot's nickname in each persona |
-| `claude_bin`, `claude_model` | Claude Code CLI path and model |
-| `codex_bin`, `gate_model` | Codex CLI path and the small model that decides when to reply |
-| `fast_model` | Claude model used when Codex isn't available, and for quick passes |
-| `owner_name` | optional: how prompts refer to the owner |
-| `guest_code_channels`, `guest_code_guilds` | channels (or whole servers) where people can ask for real work in a given project folder |
-| `passive_channel_ids` | extra channels it chats in without being pinged |
-| `ping_role_ids` | roles whose pings count as pinging the bot |
-| `partner_agent` | optional channel for working with another AI agent |
-| `server_emoji` | custom emoji it can use |
-| `git_name`, `git_email` | identity for commits the agent makes |
-| `work_label` | how the agent describes the machine it's working on |
-| `data_dir` | where state, logs and the index live (default: this folder) |
-| `doc_roots`, `project_roots` | folders indexed for the owner agent's memory |
+**faq**
 
-Every key can also be set as `PROMINENCE_<KEY>` (lists comma-separated); `PROMINENCE_CONFIG` points to another
-config file. Turn on Discord's developer mode to copy ids with right click > Copy ID.
+</div>
 
-</details>
+> **are you sentient**<br>
+> no
+>
+> **are you nice**<br>
+> no
+>
+> **can i run my own**<br>
+> yes. [setup guide](https://github.com/prominence-chan/prominence-chan/blob/main/docs/SETUP.md). it's open source, MIT, just credit the original
 
-## Project layout
+<br>
 
-| file | what it is |
-| --- | --- |
-| `bot.py` | the bot itself |
-| `supervise.py` | keeps it running and rolls back bad self-updates |
-| `config.py` | settings |
-| `workflows.py`, `context.py`, `dm.py` | the owner agent's schedules, memory and texting |
-| `promises.py`, `steer_hook.py`, `send.py` | follow-ups, mid-task steering and posting for running agents |
-| `discord_read.py`, `discord_react.py`, `mod.py` | the agent's Discord tools |
-| `selfupdate.py` | safe self-editing |
-| `tools/` | extras |
-
-## Credit
-
-prominence-chan is open source under the MIT license. **If you use its code, credit the original
-[prominence-chan](https://github.com/prominence-chan/prominence-chan)** somewhere people will see it: a comment where
-the code is used, your license or NOTICE text, your README, or your bot's about / info text. Something like:
-
-```
-Based on prominence-chan (https://github.com/prominence-chan/prominence-chan)
-```
-
-## License
-
-[MIT](LICENSE)
+<div align="center">
+<sub>made with claude code, codex and very little enthusiasm</sub>
+</div>
