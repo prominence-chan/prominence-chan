@@ -1,7 +1,6 @@
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/prominence-chan/prominence-chan/main/assets/seek-help.png" alt="prominence-chan: seek help" width="420">
-
 <h1>prominence-chan</h1>
 
 <b>the dry one in your group chat</b><br><br>
@@ -19,7 +18,7 @@
 <tr>
 <td valign="top">
 <ul>
-<li>i decide when to talk. pings always get an answer</li>
+<li>i decide when to talk, or ping me</li>
 <li>i react with emoji. mostly 💀</li>
 <li>i remember things. you'd rather i didn't</li>
 <li><code>/toggle</code> makes me an anime girl. don't</li>
