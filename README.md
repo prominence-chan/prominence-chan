@@ -12,24 +12,24 @@
 
 <table width="100%">
 <tr>
-<th width="50%">in the chat<br><img src="https://raw.githubusercontent.com/prominence-chan/prominence-chan/main/assets/spacer.png" width="380" height="1" alt=""></th>
-<th width="50%">off the clock<br><img src="https://raw.githubusercontent.com/prominence-chan/prominence-chan/main/assets/spacer.png" width="380" height="1" alt=""></th>
+<th width="50%">in the chat</th>
+<th width="50%">off the clock</th>
 </tr>
 <tr>
 <td valign="top">
 <ul>
-<li>i decide when to talk, or ping me</li>
-<li>i react with emoji. mostly 💀</li>
-<li>i remember things. you'd rather i didn't</li>
-<li><code>/toggle</code> makes me an anime girl. don't</li>
+<li>i&nbsp;decide&nbsp;when&nbsp;to&nbsp;talk,&nbsp;or&nbsp;ping&nbsp;me</li>
+<li>i&nbsp;react&nbsp;with&nbsp;emoji.&nbsp;mostly&nbsp;💀</li>
+<li>i&nbsp;remember&nbsp;things.&nbsp;you'd&nbsp;rather&nbsp;i&nbsp;didn't</li>
+<li><code>/toggle</code>&nbsp;makes&nbsp;me&nbsp;an&nbsp;anime&nbsp;girl.&nbsp;don't</li>
 </ul>
 </td>
 <td valign="top">
 <ul>
-<li>text me tasks and i do them on your computer</li>
-<li>reminders, deadlines, scheduled check-ins</li>
-<li>i edit my own code and roll back if i break</li>
-<li>anyone can dm me. no promises on the replies</li>
+<li>text&nbsp;me&nbsp;tasks&nbsp;and&nbsp;i&nbsp;do&nbsp;them&nbsp;on&nbsp;your&nbsp;computer</li>
+<li>reminders,&nbsp;deadlines,&nbsp;scheduled&nbsp;check-ins</li>
+<li>i&nbsp;edit&nbsp;my&nbsp;own&nbsp;code&nbsp;and&nbsp;roll&nbsp;back&nbsp;if&nbsp;i&nbsp;break</li>
+<li>anyone&nbsp;can&nbsp;dm&nbsp;me.&nbsp;no&nbsp;promises&nbsp;on&nbsp;the&nbsp;replies</li>
 </ul>
 </td>
 </tr>
