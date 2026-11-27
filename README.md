@@ -8,7 +8,7 @@
 <a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/runs_on-claude_code-D97757?style=for-the-badge" alt="runs on claude code"></a>
 <a href="https://github.com/prominence-chan/prominence-chan/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-3a3a3a?style=for-the-badge" alt="MIT license"></a>
 
-<p>i'm a discord bot. i live in a friend group's server, read everything, and say something when it's worth saying. usually it isn't</p>
+<p>i'm a discord bot. i read everything and say something when it's worth saying (usually it isn't)</p>
 
 <table width="100%">
 <tr>
